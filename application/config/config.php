@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://advancecv.com/';
+$config['base_url'] = '';
 // $config['base_url'] = 'http://127.0.0.1/av-code/';
 // $config['base_url'] = 'http://18.191.80.147/';
 //$config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
