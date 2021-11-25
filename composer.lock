@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad099307bebf400a808951fdc69977fa",
+    "content-hash": "e0a73bda652ec7f5bc4d606688c08816",
     "packages": [
         {
             "name": "symfony/http-foundation",
@@ -335,7 +335,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.1.0"
+        "php": "^8.0.13"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
