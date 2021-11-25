@@ -1,0 +1,262 @@
+/*   
+ * Template Name: Orbit - Responsive Resume/CV Template for Developers
+ * Version: 1.0
+ * Author: Xiaoying Riley
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+*/
+/* styles.css */
+/* ======= Base ======= */
+body {
+  font-family: 'Roboto', sans-serif !important;
+  color: #545E6C !important;
+  background: #f5f5f5 !important;
+  font-size: 14px !important;
+  padding: 0px !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+}
+a {
+  color: #2d7788 !important;
+  -webkit-transition: all 0.4s ease-in-out !important;
+  -moz-transition: all 0.4s ease-in-out !important;
+  -ms-transition: all 0.4s ease-in-out !important;
+  -o-transition: all 0.4s ease-in-out !important;
+}
+a:hover {
+  text-decoration: underline !important;
+  color: #1a454f !important;
+}
+a:focus {
+  text-decoration: none !important;
+}
+p {
+  line-height: 1.5 !important;
+}
+.wrapper {
+  background: #42A8C0 !important;
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+  position: relative !important;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) !important;
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+.sidebar-wrapper {
+  background: #42A8C0 !important;
+  position: absolute !important;
+  right: 0 !important;
+  width: 100% !important;
+  /* height: 100% !important;
+  min-height: 800px !important; */
+  /* min-height: 100% !important; */
+  min-height: 1414px;
+  color: #fff !important;
+}
+.sidebar-wrapper a {
+  color: #fff !important;
+}
+.sidebar-wrapper .profile-container {
+  padding: 30px !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  text-align: center !important;
+  color: #fff !important;
+}
+.sidebar-wrapper .name {
+  font-size: 32px !important;
+  font-weight: 900 !important;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+.sidebar-wrapper .tagline {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.sidebar-wrapper .profile {
+  margin-bottom: 15px !important;
+}
+.sidebar-wrapper .contact-list .fa {
+  margin-right: 5px !important;
+  font-size: 18px !important;
+  vertical-align: middle !important;
+}
+.sidebar-wrapper .contact-list li {
+  margin-bottom: 15px !important;
+}
+.sidebar-wrapper .contact-list li:last-child {
+  margin-bottom: 0 !important;
+}
+.sidebar-wrapper .contact-list .email .fa {
+  font-size: 14px !important;
+}
+.sidebar-wrapper .container-block {
+  padding: 30px !important;
+}
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  margin-top: 0 !important;
+  margin-bottom: 15px !important;
+}
+.sidebar-wrapper .degree {
+  font-size: 14px !important;
+  margin-top: 0 !important;
+  margin-bottom: 5px !important;
+}
+.sidebar-wrapper .education-container .item {
+  margin-bottom: 15px !important;
+}
+.sidebar-wrapper .education-container .item:last-child {
+  margin-bottom: 0 !important;
+}
+.sidebar-wrapper .education-container .meta {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-weight: 500 !important;
+  margin-bottom: 0px !important;
+  margin-top: 0 !important;
+}
+.sidebar-wrapper .education-container .time {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-weight: 500 !important;
+  margin-bottom: 0px !important;
+}
+.sidebar-wrapper .languages-container .lang-desc {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+.sidebar-wrapper .languages-list {
+  margin-bottom: 0 !important;
+}
+.sidebar-wrapper .languages-list li {
+  margin-bottom: 10px !important;
+}
+.sidebar-wrapper .languages-list li:last-child {
+  margin-bottom: 0 !important;
+}
+.sidebar-wrapper .interests-list {
+  margin-bottom: 0 !important;
+}
+.sidebar-wrapper .interests-list li {
+  margin-bottom: 10px !important;
+}
+.sidebar-wrapper .interests-list li:last-child {
+  margin-bottom: 0 !important;
+}
+.main-wrapper {
+  background: #fff !important;
+  padding: 60px !important;
+  min-height: 1414px
+  /* padding-right: 300px !important; */
+}
+.main-wrapper .section-title {
+  text-transform: uppercase !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color: #2d7788 !important;
+  position: relative !important;
+  margin-top: 0 !important;
+  margin-bottom: 20px !important;
+}
+.main-wrapper .section-title .fa {
+  width: 30px !important;
+  height: 30px !important;
+  margin-right: 8px !important;
+  display: inline-block !important;
+  color: #fff !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  border-radius: 50% !important;
+  -moz-background-clip: padding !important;
+  -webkit-background-clip: padding-box !important;
+  background-clip: padding-box !important;
+  background: #2d7788 !important;
+  text-align: center !important;
+  padding-top: 8px !important;
+  font-size: 16px !important;
+  position: relative !important;
+  top: -2px !important;
+}
+.main-wrapper .section {
+  margin-bottom: 60px !important;
+}
+.main-wrapper .experiences-section .item {
+  margin-bottom: 30px !important;
+}
+.main-wrapper .upper-row {
+  position: relative !important;
+  overflow: hidden !important;
+  margin-bottom: 2px !important;
+}
+.main-wrapper .job-title {
+  color: #3F4650 !important;
+  font-size: 16px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-weight: 500 !important;
+}
+.main-wrapper .time {
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  color: #97AAC3 !important;
+}
+.main-wrapper .company {
+  margin-bottom: 10px !important;
+  color: #97AAC3 !important;
+}
+.main-wrapper .project-title {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  margin-top: 0 !important;
+  margin-bottom: 5px !important;
+}
+.main-wrapper .projects-section .intro {
+  margin-bottom: 30px !important;
+}
+.main-wrapper .projects-section .item {
+  margin-bottom: 15px !important;
+}
+.skillset .item {
+  margin-bottom: 15px !important;
+  overflow: hidden !important;
+}
+.skillset .level-title {
+  font-size: 14px !important;
+  margin-top: 0 !important;
+  margin-bottom: 12px !important;
+}
+.skillset .level-bar {
+  height: 12px !important;
+  background: #f5f5f5 !important;
+}
+.skillset .level-bar-inner {
+  height: 12px !important;
+  background: #7bc2d3 !important;
+}
+.footer {
+  padding: 30px !important;
+  padding-top: 60px !important;
+}
+.footer .copyright {
+  line-height: 1.6 !important;
+  color: #545E6C !important;
+  font-size: 13px !important;
+}
+.footer .fa-heart {
+  color: #fb866a !important;
+}
+/* Extra small devices (phones, less than 768px) */

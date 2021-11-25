@@ -1,0 +1,12 @@
+--------- change log 16-03-2018 ---------
+application/models/adminadminmodel.php
+application/views/admin/changepassword.php
+application/controllers/admin/changepassword.php
+application/views/admin/templates/header.php
+application/views/fillinfo.php
+application/models/usermodel.php
+application/controllers/user.php
+application/views/header.php
+application/views/footer.php
+application/views/home.php
+assets/css/style.css

@@ -1,0 +1,9 @@
+vendor/
+.idea/
+application/logs/
+uploads/
+cvpdf/
+application/config/config.php
+application/config/database.php
+previewhtml/
+preview/

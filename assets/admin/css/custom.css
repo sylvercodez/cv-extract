@@ -1,0 +1,60 @@
+label{
+    font-weight: normal;
+}
+.skin-blue-light .sidebar-menu>li>a, .user-panel>.info>p{
+    font-weight: normal;
+}
+.navbar-nav>.user-menu>.dropdown-menu{
+    width: auto;
+}
+
+@media (max-width: 991px){
+    .navbar-custom-menu>.navbar-nav>li>.dropdown-menu{
+        //background: #3c8dbc;
+    }
+}
+.login-box, .register-box{
+	margin: 0 auto;
+	padding-top: 7%;
+}
+.login-page{
+	background: url(../images/login-bg.jpg);
+	background-size: 100% 100%;
+}
+.login-box-body, .register-box-body {
+    background: #ffffff82;
+    border-radius: 4px;
+}
+.main-footer{
+	padding: 8px 15px;
+}
+.chosen-container-single .chosen-single{
+	border-color: #d3cfc7;
+	border-radius: 4px;
+}
+.chosen-container-active .chosen-single, .chosen-single.chosen-single-with-drop, .chosen-container-active.chosen-with-drop .chosen-single, .chosen-container-single .chosen-drop{
+	border-color: #857b42;
+}
+.chosen-container .chosen-results li.highlighted{
+	background: #AA442D;
+}
+.asterisk{
+	font-size: 14px;
+}
+#message{
+    display: none;
+    position: fixed;
+    top: 30%;
+    right: calc(50% - 150px);
+    margin: 0 auto;
+    width: 400px;
+}
+.chosen-container{
+  width: 100% !important;
+}
+.overlay{
+    display: none;
+}
+.box .overlay{
+    background: rgba(0, 0, 0, 0.4);
+}

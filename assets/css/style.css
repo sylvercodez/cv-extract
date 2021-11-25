@@ -1,0 +1,726 @@
+* {
+    outline: 0!important;
+}
+
+body {
+    background: #006EE5;
+    /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #006EE5, #00B1FD) !important;
+    /* Standard syntax (must be last) */
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    padding: 15px;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand img.logo {
+    height: 50px;
+}
+
+#navbar>ul>li>a {
+    border: 1px solid yellow;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    color: #FFF;
+}
+
+#navbar>ul>li>a.user {
+    border: none;
+}
+
+#navbar>ul>li>a.user img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus,
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+    background: inherit;
+    color: inherit;
+}
+
+.mypanel {
+    margin-bottom: 20px;
+}
+
+#home_heading .heading .title {
+    color: #FFF;
+}
+
+#home_heading .heading,
+#home_heading .quote {
+    padding: 20px 0px;
+}
+
+#home_heading .heading .tagline {
+    color: #82DCFF;
+}
+
+.color-aqua {
+    color: #82DCFF;
+}
+
+#home_heading .heading:after {
+    position: absolute;
+    left: 15px;
+    bottom: 0px;
+    width: 30%;
+    height: 1px;
+    content: "";
+    background: #82DCFF;
+}
+
+
+/* carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+
+/* indicator position */
+
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: -10px;
+    margin-right: -19px;
+    text-align: left;
+    left: 5px;
+    margin-left: 2px;
+}
+
+
+/* indicator color */
+
+#quote-carousel .carousel-indicators li {
+    background: #82DCFF;
+    margin-right: 50px;
+}
+
+
+/* active indicator */
+
+#quote-carousel .carousel-indicators .active {
+    background: #FFF;
+    height: 10px;
+    width: 10px;
+    margin-bottom: 1px;
+}
+
+
+/* typography */
+
+#quote-carousel h1 {
+    margin-bottom: -20px !important;
+}
+
+#quote-carousel p {
+    color: #82DCFF;
+    text-align: justify;
+}
+
+#quote-carousel small strong {
+    color: #FFF;
+}
+
+.page-footer {
+    box-shadow: none;
+    /*padding: 30px 0px;*/
+    height: 200px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.page-footer h2 {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.cv-link {
+    background: yellow;
+    color: #000;
+    padding: 15px 20px;
+    border-radius: 22px;
+}
+
+#myCarousel .carousel-inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#myCarousel {
+    background-image: url('../images/cv3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#myCarousel .carousel-control.left,
+#myCarousel .carousel-control.right {
+    background-image: none;
+}
+
+.contact-support {
+    position: relative;
+    padding-bottom: 10px;
+    display: inline-block;
+    color: #FFF;
+}
+
+.contact-support:after {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 30%;
+    height: 1px;
+    content: "";
+    background: #82DCFF;
+}
+
+ul.footer-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.footer-menu li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+ul.footer-menu li a {
+    color: #82DCFF;
+}
+
+.copyright {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.copyright .love {
+    height: 16px;
+}
+
+.cv-box img {
+    max-width: 100%;
+}
+
+.cv-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cv-box .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    object-fit: cover;
+}
+
+.cv-box .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cv-box:hover .image {
+    opacity: 0.3;
+}
+
+.cv-box:hover .middle {
+    opacity: 1;
+}
+
+
+/*.cv-box .text {}*/
+
+.cv-img img {
+    width: 100%;
+}
+
+.cv-ready-option {
+    border: 1px solid yellow;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    color: #fff;
+    width: 85%;
+}
+
+.cv-cancel-option {
+    border: 1px solid yellow;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    color: #fff;
+    width: 200px;
+}
+
+.cv-info {
+    color: #fff;
+}
+
+.btn-proceed-pay {
+    background: yellow;
+    border-radius: 25px;
+    padding: 15px 30px;
+    border: none;
+    color: #000;
+}
+
+#pay-btn:disabled {
+    background: #959F2A;
+}
+
+.make-payment {
+    background: yellow;
+    border-radius: 25px;
+    padding: 15px 30px;
+    border: none;
+    color: #000;
+    width: 200px;
+}
+
+.cancel {
+    background: #fff;
+    border-radius: 25px;
+    padding: 15px 30px;
+    border: 1px solid #c8c8c8;
+    color: #000;
+    width: 200px;
+}
+
+.cv-info .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cv-info .bdr {
+    padding-bottom: 10px;
+}
+
+.social-share {
+    margin-bottom: 10px;
+    display: inline-block;
+    background: #006EE5;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+}
+
+.cv-info .bdr:after {
+    position: absolute;
+    left: 15px;
+    bottom: 0px;
+    width: 10%;
+    height: 1px;
+    content: "";
+    background: #82DCFF;
+}
+
+.img-upload-box {
+    background: #EBEBEB;
+    border-radius: 20px;
+    height: 300px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.parent {
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.child {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cv-form input.form-control,
+.cv-form textarea.form-control,
+.cv-form select.form-control {
+    border-radius: 25px;
+    background-color: #EBEBEB;
+    color: #000;
+}
+
+
+/*.cv-form select {}*/
+
+
+/* This is to remove the arrow of select element in IE */
+
+.cv-form select::-ms-expand {
+    display: none;
+}
+
+.cv-form select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+@-moz-document url-prefix() {
+    .cv-form select {
+        border: 1px solid #CCC;
+        border-radius: 4px;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+    }
+    .cv-form select {
+        /* width: 110%; */
+        background-position: right 30px center !important;
+        border: none !important;
+    }
+}
+
+.cv-form select {
+    background-image: url(../images/DROP-DOWN.png);
+    background-repeat: no-repeat;
+    background-position: 99% 8px;
+    background-size: 30px 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.btn-add {
+    width: 250px;
+    text-align: left;
+    background: #006EE5;
+    /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #006EE5, #00B1FD);
+    /* Standard syntax (must be last) */
+    background-size: contain;
+    color: #FFF;
+    border-radius: 25px;
+    padding-left: 31px;
+}
+
+.btn-add .add-img {
+    height: 28px;
+}
+
+.btn-add:focus,
+.btn-add:hover,
+.btn-add:active,
+.btn-add.active {
+    background-image: inherit;
+    background: inherit;
+    box-shadow: none;
+    background: #006EE5;
+    /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #006EE5, #00B1FD);
+    /* Standard syntax (must be last) */
+    background-size: contain;
+    color: #FFF;
+}
+
+.facebook-input {
+    background-image: url(../images/FACEBOOK.png);
+    background-repeat: no-repeat;
+    background-position: 99% 8px;
+    background-size: 30px 30px;
+}
+
+.twitter-input {
+    background-image: url(../images/TWITTER.png);
+    background-repeat: no-repeat;
+    background-position: 99% 8px;
+    background-size: 30px 30px;
+}
+
+.linkedin-input {
+    background-image: url(../images/LINKEDIN.png);
+    background-repeat: no-repeat;
+    background-position: 99% 8px;
+    background-size: 30px 30px;
+}
+
+.instagram-input {
+    background-image: url(../images/INSTAGRAM.png);
+    background-repeat: no-repeat;
+    background-position: 99% 8px;
+    background-size: 30px 30px;
+}
+
+.cv-form .heading h1 {
+    color: #FFF;
+}
+
+.cv-form .heading h5 {
+    color: #82DCFF;
+}
+
+#top img {
+    height: fit-content;
+}
+
+.navbar .navbar-toggle {
+    border-color: #fff;
+    cursor: pointer;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.payment-methods {
+    text-align: center;
+    padding-top: 20px;
+    width: 292px;
+    height: 172px;
+    background-color: #ffffff4d;
+    background-image: url('../images/prev.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.expiry-date {
+    background-image: url(../images/DROP-DOWN.png);
+    background-repeat: no-repeat;
+    background-position: 99% 8px;
+    background-size: 30px 30px;
+}
+
+.security-code {
+    background-image: url(../images/hint.png);
+    background-repeat: no-repeat;
+    background-position: 99% 8px;
+    background-size: 30px 30px;
+}
+
+.print-cv-box {
+    padding-bottom: 20px;
+}
+
+.sign-in-panel .panel-heading h5 {
+    color: #006EE5;
+}
+
+.sign-in-modal {
+    padding: 40px 40px;
+    text-align: center;
+}
+
+.sign-in-form {
+    margin-top: 30px;
+}
+
+.sign-in-modal h5 {
+    color: #82DCFF;
+}
+
+.create-new-cv {
+    background: yellow;
+    padding: 6px 20px;
+    border-radius: 18px;
+}
+
+.my-cv {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.user {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.user-block:before,
+.user-block:after {
+    content: " ";
+    display: table;
+}
+
+.user-block:after {
+    clear: both;
+}
+
+.user-block img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border: 4px solid #FFF;
+}
+
+.user-block .username,
+.user-block .description,
+.user-block .comment {
+    display: block;
+    margin-left: 90px;
+}
+
+.user-block .username {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.user-block .username a {
+    color: #FFF;
+}
+
+.user-block .description {
+    color: #82DCFF;
+    font-size: 13px;
+}
+
+.user-block.user-block-sm .username,
+.user-block.user-block-sm .description,
+.user-block.user-block-sm .comment {
+    margin-left: 40px;
+}
+
+.user-block.user-block-sm .username {
+    font-size: 14px;
+}
+
+.edit-profile {
+    border: 1px solid #FFF;
+    color: #FFF;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px;
+}
+
+.edit-cv-btn {
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+
+.counpon {
+    background: none;
+    border: 2px solid yellow;
+    padding: 14px 30px;
+    color: #FFF !important;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.continue {
+    padding: 14px 30px;
+    background: yellow;
+    border-color: yellow;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: -4px;
+    border: 2px solid yellow;
+}
+
+.counpon::placeholder {
+    color: #FFF;
+}
+
+.text-red {
+    color: #dd4b39 !important
+}
+
+@media only screen and (min-width: 768px) {
+    #myCarousel .item img {
+        height: 400px;
+    }
+    #myCarousel .carousel-inner {
+        width: 50%;
+    }
+    #home_heading .heading {
+        padding-top: 0px;
+    }
+    #home_heading .heading .title {
+        font-size: 28px;
+    }
+    .page-footer h2 {
+        font-size: 25px;
+    }
+}
+
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: inherit;
+    height: inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+}
+
+.btn-remove {
+    color: #FFF;
+    background: #329daf;
+    border: none;
+    border-radius: 15px;
+    width: 20px;
+    height: 20px;
+    padding-top: 0px;
+    outline: 0;
+}
+
+#loginForm > div > div > div > div > div > div > input {    
+    border-radius: 0px;
+}
+#signupForm > div > div > div > div > div > div > input {    
+    border-radius: 0px;
+}
+
+@media print {
+    .container {
+        width: auto;
+    }
+    @page {
+        size: 330mm 427mm;
+        margin: 14mm;
+    }
+}
+
+.col-container{
+    display: table;
+    width: 100%;
+}
+.col{
+    display: table-cell;
+}

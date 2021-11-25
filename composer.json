@@ -1,0 +1,10 @@
+{
+    "require": {
+        "symfony/process": "^3.4",
+        "symfony/http-foundation": "^3.4",
+        "php": "^5.6.32"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    }
+}
