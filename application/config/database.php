@@ -72,15 +72,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $active_group = 'default';
 $query_builder = TRUE;
-//mysql --host=us-cdbr-iron-east-04.cleardb.net --user=bc76b0bfe9499d --database=heroku_4b7a50d74ffff0a -p
+mysql --host=us-cdbr-iron-east-04.cleardb.net --user=bc76b0bfe9499d --database=heroku_4b7a50d74ffff0a -p
 $db['default'] = array(
 	'dsn'	=> '',	
 	'username' => 'bc76b0bfe9499d',
 	'password' => '5bc47893',
 	'database' => 'av',	
-    'hostname' => 'localhost',
-	// 'username' => 'av',
-	// 'password' => 'gOddam!t_spare_me_the_bullsh1t',	
+    'hostname' => '127.0.0.1',
+	'username' => 'av',
+	'password' => 'gOddam!t_spare_me_the_bullsh1t',	
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
